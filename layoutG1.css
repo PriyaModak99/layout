@@ -1,0 +1,110 @@
+.header{
+	height:200px;
+	width:930px;
+	border:1px solid red;
+	margin:auto;
+	background:linear-gradient(red,orange,yellow,green,blue,violet,indigo);
+}
+#MENU{
+	height:40px;
+	width:930px;
+	border:2px solid red;
+	margin:auto;
+
+}
+#content{
+	height:355px;
+	width:933px;
+	border:1px solid red;
+	margin:auto;
+
+}
+#footer{
+	height:60px;
+	width:950px;
+	border:2px solid red;
+	margin:auto;
+}
+
+h1{
+    height:100px;
+	width:200px;
+	text-align:center;
+	line-height: 240px;
+	color:white;
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+li{
+    height:40px;
+	width:148px;
+	/* float: left; */
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	border:1px solid;
+	font-size: 20px;
+	color:white;
+}
+ul li a{
+	text-decoration:none;
+	background-color: black;
+	color:white;
+	display:block;
+}
+ul li a:hover{
+	font-size: 22px;
+	background-color: pink;
+	color: black;
+	text-decoration: underline;
+}
+ul li ul{
+	background-color: pink;
+	display: none;
+}
+ul li:hover ul{
+	display: block;
+}
+#left{
+	height: 350px;
+	width:300px;
+	border:5px dotted red;
+	float: left;
+	background-image:url(designbg.jpg);
+}
+#right{
+	height:350px;
+	width:300px;
+	border:5px dotted green;
+	float:left;
+	z-index: -1;
+	position: relative;
+
+}
+#ss{
+	height: 350px;
+	width:300px;
+	border:5px dotted purple;
+	float: left;
+}
+#aa{
+	transition: transform 3s;
+}
+#aa:hover{
+	transform: rotate(360deg);
+}
+
+#footer{
+    height:90px;
+	width:935px;
+	border: 2px solid black;
+	background:radial-gradient(red,orange,yellow,green,blue,violet,indigo);
+    margin:auto;
+	font-size: 20px;
+	color: white;
+	float: left;
+	font-weight: 800;
+}
